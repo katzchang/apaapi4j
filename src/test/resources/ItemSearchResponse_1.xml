@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2009-03-31">
+<OperationRequest>
+<HTTPHeaders>
+<Header Name="UserAgent" Value="Java/1.6.0_26"/>
+</HTTPHeaders>
+<RequestId>408e186e-657b-44d5-ae54-feb5f8a961e7</RequestId>
+<Arguments>
+<Argument Name="Operation" Value="ItemSearch"/>
+<Argument Name="Service" Value="AWSECommerceService"/>
+<Argument Name="ItemPage" Value="1"/>
+<Argument Name="AssociateTag" Value="trukxkxn-22"/>
+<Argument Name="Version" Value="2009-03-31"/>
+<Argument Name="Keywords" Value="まどか☆マギカ"/>
+<Argument Name="SearchIndex" Value="Books"/>
+<Argument Name="Signature" Value="ngOMb5DU14oUFIRBwnKLqlcpMpO3evjutTHK3ayfH+s="/>
+<Argument Name="AWSAccessKeyId" Value="AKIAJDL6OQHWMK7E2VXQ"/>
+<Argument Name="Timestamp" Value="2011-12-13T02:16:33Z"/>
+</Arguments>
+<RequestProcessingTime>0.0382240000000000</RequestProcessingTime>
+</OperationRequest>
+<Items>
+<Request>
+<IsValid>True</IsValid>
+<ItemSearchRequest>
+<ItemPage>1</ItemPage>
+<Keywords>まどか☆マギカ</Keywords>
+<ResponseGroup>Small</ResponseGroup>
+<SearchIndex>Books</SearchIndex>
+</ItemSearchRequest>
+</Request>
+<TotalResults>36</TotalResults>
+<TotalPages>4</TotalPages>
+<Item>
+<ASIN>4832240617</ASIN>
+<DetailPageURL>http://www.amazon.co.jp/%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E3%81%BE%E3%81%A9%E3%81%8B%E2%98%86%E3%83%9E%E3%82%AE%E3%82%AB%E5%85%AC%E5%BC%8F%E3%82%AC%E3%82%A4%E3%83%89%E3%83%96%E3%83%83%E3%82%AF-you-alone-%E3%81%BE%E3%82%93%E3%81%8C%E3%82%BF%E3%82%A4%E3%83%A0KR%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E3%83%95%E3%82%A9%E3%83%AF%E3%83%BC%E3%83%89%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA/dp/4832240617%3FSubscriptionId%3DAKIAJDL6OQHWMK7E2VXQ%26tag%3Dtrukxkxn-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D4832240617</DetailPageURL>
+<ItemLinks>
+<ItemLink>
+<Description>Add To Wishlist</Description>
+<URL>http://www.amazon.co.jp/gp/registry/wishlist/add-item.html%3Fasin.0%3D4832240617%26SubscriptionId%3DAKIAJDL6OQHWMK7E2VXQ%26tag%3Dtrukxkxn-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D5143%26creativeASIN%3D4832240617</URL>
+</ItemLink>
+<ItemLink>
+<Description>Tell A Friend</Description>
+<URL>http://www.amazon.co.jp/gp/pdp/taf/4832240617%3FSubscriptionId%3DAKIAJDL6OQHWMK7E2VXQ%26tag%3Dtrukxkxn-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D5143%26creativeASIN%3D4832240617</URL>
+</ItemLink>
+<ItemLink>
+<Description>All Customer Reviews</Description>
+<URL>http://www.amazon.co.jp/review/product/4832240617%3FSubscriptionId%3DAKIAJDL6OQHWMK7E2VXQ%26tag%3Dtrukxkxn-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D5143%26creativeASIN%3D4832240617</URL>
+</ItemLink>
+<ItemLink>
+<Description>All Offers</Description>
+<URL>http://www.amazon.co.jp/gp/offer-listing/4832240617%3FSubscriptionId%3DAKIAJDL6OQHWMK7E2VXQ%26tag%3Dtrukxkxn-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D5143%26creativeASIN%3D4832240617</URL>
+</ItemLink>
+</ItemLinks>
+<ItemAttributes>
+<Author>原作：Magica Quartet</Author>
+<Creator Role="編集">まんがタイムきらら</Creator>
+<Manufacturer>芳文社</Manufacturer>
+<ProductGroup>Book</ProductGroup>
+<Title>魔法少女まどか☆マギカ公式ガイドブック you are not alone. (まんがタイムKRコミックス フォワードシリーズ)</Title>
+</ItemAttributes>
+</Item>
+<Item>
+<ASIN>4832279904</ASIN>
+<DetailPageURL>http://www.amazon.co.jp/%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E3%81%BE%E3%81%A9%E3%81%8B%E2%98%86%E3%83%9E%E3%82%AE%E3%82%AB-1-%E3%81%BE%E3%82%93%E3%81%8C%E3%82%BF%E3%82%A4%E3%83%A0KR%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E3%83%95%E3%82%A9%E3%83%AF%E3%83%BC%E3%83%89%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA-%E3%83%8F%E3%83%8E%E3%82%AB%E3%82%B2/dp/4832279904%3FSubscriptionId%3DAKIAJDL6OQHWMK7E2VXQ%26tag%3Dtrukxkxn-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D4832279904</DetailPageURL>
+<ItemLinks>
+<ItemLink>
+<Description>Add To Wishlist</Description>
+<URL>http://www.amazon.co.jp/gp/registry/wishlist/add-item.html%3Fasin.0%3D4832279904%26SubscriptionId%3DAKIAJDL6OQHWMK7E2VXQ%26tag%3Dtrukxkxn-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D5143%26creativeASIN%3D4832279904</URL>
+</ItemLink>
+<ItemLink>
+<Description>Tell A Friend</Description>
+<URL>http://www.amazon.co.jp/gp/pdp/taf/4832279904%3FSubscriptionId%3DAKIAJDL6OQHWMK7E2VXQ%26tag%3Dtrukxkxn-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D5143%26creativeASIN%3D4832279904</URL>
+</ItemLink>
+<ItemLink>
+<Description>All Customer Reviews</Description>
+<URL>http://www.amazon.co.jp/review/product/4832279904%3FSubscriptionId%3DAKIAJDL6OQHWMK7E2VXQ%26tag%3Dtrukxkxn-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D5143%26creativeASIN%3D4832279904</URL>
+</ItemLink>
+<ItemLink>
+<Description>All Offers</Description>
+<URL>http://www.amazon.co.jp/gp/offer-listing/4832279904%3FSubscriptionId%3DAKIAJDL6OQHWMK7E2VXQ%26tag%3Dtrukxkxn-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D5143%26creativeASIN%3D4832279904</URL>
+</ItemLink>
+</ItemLinks>
+<ItemAttributes>
+<Author>ハノカゲ</Author>
+<Creator Role="原著">Magica Quartet</Creator>
+<Manufacturer>芳文社</Manufacturer>
+<ProductGroup>Book</ProductGroup>
+<Title>魔法少女まどか☆マギカ (1) (まんがタイムKRコミックス フォワードシリーズ)</Title>
+</ItemAttributes>
+</Item>
+<Item>
+<ASIN>483224003X</ASIN>
+<DetailPageURL>http://www.amazon.co.jp/%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E3%81%BE%E3%81%A9%E3%81%8B%E2%98%86%E3%83%9E%E3%82%AE%E3%82%AB-2-%E3%81%BE%E3%82%93%E3%81%8C%E3%82%BF%E3%82%A4%E3%83%A0KR%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E3%83%95%E3%82%A9%E3%83%AF%E3%83%BC%E3%83%89%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA-%E3%83%8F%E3%83%8E%E3%82%AB%E3%82%B2/dp/483224003X%3FSubscriptionId%3DAKIAJDL6OQHWMK7E2VXQ%26tag%3Dtrukxkxn-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D483224003X</DetailPageURL>
+<ItemLinks>
+<ItemLink>
+<Description>Add To Wishlist</Description>
+<URL>http://www.amazon.co.jp/gp/registry/wishlist/add-item.html%3Fasin.0%3D483224003X%26SubscriptionId%3DAKIAJDL6OQHWMK7E2VXQ%26tag%3Dtrukxkxn-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D5143%26creativeASIN%3D483224003X</URL>
+</ItemLink>
+<ItemLink>
+<Description>Tell A Friend</Description>
+<URL>http://www.amazon.co.jp/gp/pdp/taf/483224003X%3FSubscriptionId%3DAKIAJDL6OQHWMK7E2VXQ%26tag%3Dtrukxkxn-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D5143%26creativeASIN%3D483224003X</URL>
+</ItemLink>
+<ItemLink>
+<Description>All Customer Reviews</Description>
+<URL>http://www.amazon.co.jp/review/product/483224003X%3FSubscriptionId%3DAKIAJDL6OQHWMK7E2VXQ%26tag%3Dtrukxkxn-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D5143%26creativeASIN%3D483224003X</URL>
+</ItemLink>
+<ItemLink>
+<Description>All Offers</Description>
+<URL>http://www.amazon.co.jp/gp/offer-listing/483224003X%3FSubscriptionId%3DAKIAJDL6OQHWMK7E2VXQ%26tag%3Dtrukxkxn-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D5143%26creativeASIN%3D483224003X</URL>
+</ItemLink>
+</ItemLinks>
+<ItemAttributes>
+<Author>ハノカゲ</Author>
+<Creator Role="原著">Magica Quartet</Creator>
+<Manufacturer>芳文社</Manufacturer>
+<ProductGroup>Book</ProductGroup>
+<Title>魔法少女まどか☆マギカ (2) (まんがタイムKRコミックス フォワードシリーズ)</Title>
+</ItemAttributes>
+</Item>
+<Item>
+<ASIN>4832240145</ASIN>
+<DetailPageURL>http://www.amazon.co.jp/%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E3%81%BE%E3%81%A9%E3%81%8B%E2%98%86%E3%83%9E%E3%82%AE%E3%82%AB-3-%E3%81%BE%E3%82%93%E3%81%8C%E3%82%BF%E3%82%A4%E3%83%A0KR%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E3%83%95%E3%82%A9%E3%83%AF%E3%83%BC%E3%83%89%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA-%E3%83%8F%E3%83%8E%E3%82%AB%E3%82%B2/dp/4832240145%3FSubscriptionId%3DAKIAJDL6OQHWMK7E2VXQ%26tag%3Dtrukxkxn-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D4832240145</DetailPageURL>
+<ItemLinks>
+<ItemLink>
+<Description>Add To Wishlist</Description>
+<URL>http://www.amazon.co.jp/gp/registry/wishlist/add-item.html%3Fasin.0%3D4832240145%26SubscriptionId%3DAKIAJDL6OQHWMK7E2VXQ%26tag%3Dtrukxkxn-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D5143%26creativeASIN%3D4832240145</URL>
+</ItemLink>
+<ItemLink>
+<Description>Tell A Friend</Description>
+<URL>http://www.amazon.co.jp/gp/pdp/taf/4832240145%3FSubscriptionId%3DAKIAJDL6OQHWMK7E2VXQ%26tag%3Dtrukxkxn-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D5143%26creativeASIN%3D4832240145</URL>
+</ItemLink>
+<ItemLink>
+<Description>All Customer Reviews</Description>
+<URL>http://www.amazon.co.jp/review/product/4832240145%3FSubscriptionId%3DAKIAJDL6OQHWMK7E2VXQ%26tag%3Dtrukxkxn-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D5143%26creativeASIN%3D4832240145</URL>
+</ItemLink>
+<ItemLink>
+<Description>All Offers</Description>
+<URL>http://www.amazon.co.jp/gp/offer-listing/4832240145%3FSubscriptionId%3DAKIAJDL6OQHWMK7E2VXQ%26tag%3Dtrukxkxn-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D5143%26creativeASIN%3D4832240145</URL>
+</ItemLink>
+</ItemLinks>
+<ItemAttributes>
+<Author>ハノカゲ</Author>
+<Creator Role="原著">Magica Quartet</Creator>
+<Manufacturer>芳文社</Manufacturer>
+<ProductGroup>Book</ProductGroup>
+<Title>魔法少女まどか☆マギカ (3) (まんがタイムKRコミックス フォワードシリーズ)</Title>
+</ItemAttributes>
+</Item>
+<Item>
+<ASIN>4041100453</ASIN>
+<DetailPageURL>http://www.amazon.co.jp/%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E3%81%BE%E3%81%A9%E3%81%8B%E2%98%86%E3%83%9E%E3%82%AE%E3%82%AB-%EF%BC%B4%EF%BD%88%EF%BD%85-%EF%BC%A2%EF%BD%85%EF%BD%87%EF%BD%89%EF%BD%8E%EF%BD%8E%EF%BD%89%EF%BD%8E%EF%BD%87-%EF%BC%B3%EF%BD%94%EF%BD%8F%EF%BD%92%EF%BD%99-%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%BF%E3%82%A4%E3%83%97%E7%B7%A8%E9%9B%86%E9%83%A8/dp/4041100453%3FSubscriptionId%3DAKIAJDL6OQHWMK7E2VXQ%26tag%3Dtrukxkxn-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D4041100453</DetailPageURL>
+<ItemLinks>
+<ItemLink>
+<Description>Add To Wishlist</Description>
+<URL>http://www.amazon.co.jp/gp/registry/wishlist/add-item.html%3Fasin.0%3D4041100453%26SubscriptionId%3DAKIAJDL6OQHWMK7E2VXQ%26tag%3Dtrukxkxn-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D5143%26creativeASIN%3D4041100453</URL>
+</ItemLink>
+<ItemLink>
+<Description>Tell A Friend</Description>
+<URL>http://www.amazon.co.jp/gp/pdp/taf/4041100453%3FSubscriptionId%3DAKIAJDL6OQHWMK7E2VXQ%26tag%3Dtrukxkxn-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D5143%26creativeASIN%3D4041100453</URL>
+</ItemLink>
+<ItemLink>
+<Description>All Customer Reviews</Description>
+<URL>http://www.amazon.co.jp/review/product/4041100453%3FSubscriptionId%3DAKIAJDL6OQHWMK7E2VXQ%26tag%3Dtrukxkxn-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D5143%26creativeASIN%3D4041100453</URL>
+</ItemLink>
+<ItemLink>
+<Description>All Offers</Description>
+<URL>http://www.amazon.co.jp/gp/offer-listing/4041100453%3FSubscriptionId%3DAKIAJDL6OQHWMK7E2VXQ%26tag%3Dtrukxkxn-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D5143%26creativeASIN%3D4041100453</URL>
+</ItemLink>
+</ItemLinks>
+<ItemAttributes>
+<Creator Role="編集">ニュータイプ編集部</Creator>
+<Creator Role="その他">Ｍａｇｉｃａ Ｑｕａｒｔｅｔ</Creator>
+<Manufacturer>角川書店(角川グループパブリッシング)</Manufacturer>
+<ProductGroup>Book</ProductGroup>
+<Title>魔法少女まどか☆マギカ　Ｔｈｅ　Ｂｅｇｉｎｎｉｎｇ　Ｓｔｏｒｙ</Title>
+</ItemAttributes>
+</Item>
+<Item>
+<ASIN>B005GT68XS</ASIN>
+<DetailPageURL>http://www.amazon.co.jp/%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E3%81%BE%E3%81%A9%E3%81%8B%E2%98%86%E3%83%9E%E3%82%AE%E3%82%AB-2012%E5%B9%B4-%E3%82%AB%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC-%E3%83%88%E3%83%A9%E3%82%A4%E3%82%A8%E3%83%83%E3%82%AF%E3%82%B9/dp/B005GT68XS%3FSubscriptionId%3DAKIAJDL6OQHWMK7E2VXQ%26tag%3Dtrukxkxn-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB005GT68XS</DetailPageURL>
+<ItemLinks>
+<ItemLink>
+<Description>Add To Wishlist</Description>
+<URL>http://www.amazon.co.jp/gp/registry/wishlist/add-item.html%3Fasin.0%3DB005GT68XS%26SubscriptionId%3DAKIAJDL6OQHWMK7E2VXQ%26tag%3Dtrukxkxn-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D5143%26creativeASIN%3DB005GT68XS</URL>
+</ItemLink>
+<ItemLink>
+<Description>Tell A Friend</Description>
+<URL>http://www.amazon.co.jp/gp/pdp/taf/B005GT68XS%3FSubscriptionId%3DAKIAJDL6OQHWMK7E2VXQ%26tag%3Dtrukxkxn-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D5143%26creativeASIN%3DB005GT68XS</URL>
+</ItemLink>
+<ItemLink>
+<Description>All Customer Reviews</Description>
+<URL>http://www.amazon.co.jp/review/product/B005GT68XS%3FSubscriptionId%3DAKIAJDL6OQHWMK7E2VXQ%26tag%3Dtrukxkxn-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D5143%26creativeASIN%3DB005GT68XS</URL>
+</ItemLink>
+<ItemLink>
+<Description>All Offers</Description>
+<URL>http://www.amazon.co.jp/gp/offer-listing/B005GT68XS%3FSubscriptionId%3DAKIAJDL6OQHWMK7E2VXQ%26tag%3Dtrukxkxn-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D5143%26creativeASIN%3DB005GT68XS</URL>
+</ItemLink>
+</ItemLinks>
+<ItemAttributes>
+<Author>トライエックス</Author>
+<Manufacturer>キャラアニ (株式会社 ハゴロモ)</Manufacturer>
+<ProductGroup>Book</ProductGroup>
+<Title>魔法少女まどか☆マギカ [2012年 カレンダー]</Title>
+</ItemAttributes>
+</Item>
+<Item>
+<ASIN>4832240641</ASIN>
+<DetailPageURL>http://www.amazon.co.jp/%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E3%81%BE%E3%81%A9%E3%81%8B%E2%98%86%E3%83%9E%E3%82%AE%E3%82%AB-%E3%82%A2%E3%83%B3%E3%82%BD%E3%83%AD%E3%82%B8%E3%83%BC%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF-1-%E3%81%BE%E3%82%93%E3%81%8C%E3%82%BF%E3%82%A4%E3%83%A0KR%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E3%83%95%E3%82%A9%E3%83%AF%E3%83%BC%E3%83%89%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA/dp/4832240641%3FSubscriptionId%3DAKIAJDL6OQHWMK7E2VXQ%26tag%3Dtrukxkxn-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D4832240641</DetailPageURL>
+<ItemLinks>
+<ItemLink>
+<Description>Add To Wishlist</Description>
+<URL>http://www.amazon.co.jp/gp/registry/wishlist/add-item.html%3Fasin.0%3D4832240641%26SubscriptionId%3DAKIAJDL6OQHWMK7E2VXQ%26tag%3Dtrukxkxn-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D5143%26creativeASIN%3D4832240641</URL>
+</ItemLink>
+<ItemLink>
+<Description>Tell A Friend</Description>
+<URL>http://www.amazon.co.jp/gp/pdp/taf/4832240641%3FSubscriptionId%3DAKIAJDL6OQHWMK7E2VXQ%26tag%3Dtrukxkxn-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D5143%26creativeASIN%3D4832240641</URL>
+</ItemLink>
+<ItemLink>
+<Description>All Customer Reviews</Description>
+<URL>http://www.amazon.co.jp/review/product/4832240641%3FSubscriptionId%3DAKIAJDL6OQHWMK7E2VXQ%26tag%3Dtrukxkxn-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D5143%26creativeASIN%3D4832240641</URL>
+</ItemLink>
+<ItemLink>
+<Description>All Offers</Description>
+<URL>http://www.amazon.co.jp/gp/offer-listing/4832240641%3FSubscriptionId%3DAKIAJDL6OQHWMK7E2VXQ%26tag%3Dtrukxkxn-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D5143%26creativeASIN%3D4832240641</URL>
+</ItemLink>
+</ItemLinks>
+<ItemAttributes>
+<Author>原案:Magica Quartet</Author>
+<Author>漫画:アンソロジー</Author>
+<Manufacturer>芳文社</Manufacturer>
+<ProductGroup>Book</ProductGroup>
+<Title>魔法少女まどか☆マギカ アンソロジーコミック (1) (まんがタイムKRコミックス フォワードシリーズ)</Title>
+</ItemAttributes>
+</Item>
+<Item>
+<ASIN>4791702298</ASIN>
+<DetailPageURL>http://www.amazon.co.jp/%E3%83%A6%E3%83%AA%E3%82%A4%E3%82%AB2011%E5%B9%B411%E6%9C%88%E8%87%A8%E6%99%82%E5%A2%97%E5%88%8A%E5%8F%B7-%E7%B7%8F%E7%89%B9%E9%9B%86-%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E3%81%BE%E3%81%A9%E3%81%8B%E2%98%86%E3%83%9E%E3%82%AE%E3%82%AB-%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E3%81%AB%E8%8A%B1%E6%9D%9F%E3%82%92-%E6%82%A0%E6%9C%A8-%E7%A2%A7/dp/4791702298%3FSubscriptionId%3DAKIAJDL6OQHWMK7E2VXQ%26tag%3Dtrukxkxn-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D4791702298</DetailPageURL>
+<ItemLinks>
+<ItemLink>
+<Description>Add To Wishlist</Description>
+<URL>http://www.amazon.co.jp/gp/registry/wishlist/add-item.html%3Fasin.0%3D4791702298%26SubscriptionId%3DAKIAJDL6OQHWMK7E2VXQ%26tag%3Dtrukxkxn-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D5143%26creativeASIN%3D4791702298</URL>
+</ItemLink>
+<ItemLink>
+<Description>Tell A Friend</Description>
+<URL>http://www.amazon.co.jp/gp/pdp/taf/4791702298%3FSubscriptionId%3DAKIAJDL6OQHWMK7E2VXQ%26tag%3Dtrukxkxn-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D5143%26creativeASIN%3D4791702298</URL>
+</ItemLink>
+<ItemLink>
+<Description>All Customer Reviews</Description>
+<URL>http://www.amazon.co.jp/review/product/4791702298%3FSubscriptionId%3DAKIAJDL6OQHWMK7E2VXQ%26tag%3Dtrukxkxn-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D5143%26creativeASIN%3D4791702298</URL>
+</ItemLink>
+<ItemLink>
+<Description>All Offers</Description>
+<URL>http://www.amazon.co.jp/gp/offer-listing/4791702298%3FSubscriptionId%3DAKIAJDL6OQHWMK7E2VXQ%26tag%3Dtrukxkxn-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D5143%26creativeASIN%3D4791702298</URL>
+</ItemLink>
+</ItemLinks>
+<ItemAttributes>
+<Author>悠木 碧</Author>
+<Author>斎藤 千和</Author>
+<Author>虚淵 玄</Author>
+<Author>田中 ロミオ</Author>
+<Manufacturer>青土社</Manufacturer>
+<ProductGroup>Book</ProductGroup>
+<Title>ユリイカ2011年11月臨時増刊号　総特集=魔法少女まどか☆マギカ　魔法少女に花束を</Title>
+</ItemAttributes>
+</Item>
+<Item>
+<ASIN>4896106261</ASIN>
+<DetailPageURL>http://www.amazon.co.jp/%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E3%81%BE%E3%81%A9%E3%81%8B%E2%98%86%E3%83%9E%E3%82%AE%E3%82%AB-%E3%83%97%E3%83%AD%E3%83%80%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%8E%E3%83%BC%E3%83%88-%EF%BC%88PUELLA-MADOKA-PRODUCTION/dp/4896106261%3FSubscriptionId%3DAKIAJDL6OQHWMK7E2VXQ%26tag%3Dtrukxkxn-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D4896106261</DetailPageURL>
+<ItemLinks>
+<ItemLink>
+<Description>Add To Wishlist</Description>
+<URL>http://www.amazon.co.jp/gp/registry/wishlist/add-item.html%3Fasin.0%3D4896106261%26SubscriptionId%3DAKIAJDL6OQHWMK7E2VXQ%26tag%3Dtrukxkxn-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D5143%26creativeASIN%3D4896106261</URL>
+</ItemLink>
+<ItemLink>
+<Description>Tell A Friend</Description>
+<URL>http://www.amazon.co.jp/gp/pdp/taf/4896106261%3FSubscriptionId%3DAKIAJDL6OQHWMK7E2VXQ%26tag%3Dtrukxkxn-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D5143%26creativeASIN%3D4896106261</URL>
+</ItemLink>
+<ItemLink>
+<Description>All Customer Reviews</Description>
+<URL>http://www.amazon.co.jp/review/product/4896106261%3FSubscriptionId%3DAKIAJDL6OQHWMK7E2VXQ%26tag%3Dtrukxkxn-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D5143%26creativeASIN%3D4896106261</URL>
+</ItemLink>
+<ItemLink>
+<Description>All Offers</Description>
+<URL>http://www.amazon.co.jp/gp/offer-listing/4896106261%3FSubscriptionId%3DAKIAJDL6OQHWMK7E2VXQ%26tag%3Dtrukxkxn-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D5143%26creativeASIN%3D4896106261</URL>
+</ItemLink>
+</ItemLinks>
+<ItemAttributes>
+<Manufacturer>シャフト</Manufacturer>
+<ProductGroup>Book</ProductGroup>
+<Title>魔法少女まどか☆マギカ プロダクションノート （PUELLA MAGI MADOKA MAGICA PRODUCTION NOTE）</Title>
+</ItemAttributes>
+</Item>
+<Item>
+<ASIN>B005GT6EIW</ASIN>
+<DetailPageURL>http://www.amazon.co.jp/%E5%8D%93%E4%B8%8A%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E3%81%BE%E3%81%A9%E3%81%8B%E2%98%86%E3%83%9E%E3%82%AE%E3%82%AB-2012%E5%B9%B4-%E3%82%AB%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC-%E3%83%88%E3%83%A9%E3%82%A4%E3%82%A8%E3%83%83%E3%82%AF%E3%82%B9/dp/B005GT6EIW%3FSubscriptionId%3DAKIAJDL6OQHWMK7E2VXQ%26tag%3Dtrukxkxn-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB005GT6EIW</DetailPageURL>
+<ItemLinks>
+<ItemLink>
+<Description>Add To Wishlist</Description>
+<URL>http://www.amazon.co.jp/gp/registry/wishlist/add-item.html%3Fasin.0%3DB005GT6EIW%26SubscriptionId%3DAKIAJDL6OQHWMK7E2VXQ%26tag%3Dtrukxkxn-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D5143%26creativeASIN%3DB005GT6EIW</URL>
+</ItemLink>
+<ItemLink>
+<Description>Tell A Friend</Description>
+<URL>http://www.amazon.co.jp/gp/pdp/taf/B005GT6EIW%3FSubscriptionId%3DAKIAJDL6OQHWMK7E2VXQ%26tag%3Dtrukxkxn-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D5143%26creativeASIN%3DB005GT6EIW</URL>
+</ItemLink>
+<ItemLink>
+<Description>All Customer Reviews</Description>
+<URL>http://www.amazon.co.jp/review/product/B005GT6EIW%3FSubscriptionId%3DAKIAJDL6OQHWMK7E2VXQ%26tag%3Dtrukxkxn-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D5143%26creativeASIN%3DB005GT6EIW</URL>
+</ItemLink>
+<ItemLink>
+<Description>All Offers</Description>
+<URL>http://www.amazon.co.jp/gp/offer-listing/B005GT6EIW%3FSubscriptionId%3DAKIAJDL6OQHWMK7E2VXQ%26tag%3Dtrukxkxn-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D5143%26creativeASIN%3DB005GT6EIW</URL>
+</ItemLink>
+</ItemLinks>
+<ItemAttributes>
+<Author>トライエックス</Author>
+<Manufacturer>キャラアニ (株式会社 ハゴロモ)</Manufacturer>
+<ProductGroup>Book</ProductGroup>
+<Title>卓上魔法少女まどか☆マギカ [2012年 カレンダー]</Title>
+</ItemAttributes>
+</Item>
+</Items>
+</ItemSearchResponse>

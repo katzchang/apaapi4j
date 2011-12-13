@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2009-03-31">
+<OperationRequest>
+<HTTPHeaders>
+<Header Name="UserAgent" Value="Java/1.6.0_26"/>
+</HTTPHeaders>
+<RequestId>a994a107-4dd3-46a3-acf4-90c724900dac</RequestId>
+<Arguments>
+<Argument Name="Operation" Value="ItemSearch"/>
+<Argument Name="Service" Value="AWSECommerceService"/>
+<Argument Name="ItemPage" Value="1"/>
+<Argument Name="AssociateTag" Value="trukxkxn-22"/>
+<Argument Name="Version" Value="2009-03-31"/>
+<Argument Name="Keywords" Value="978487311439223456789123459"/>
+<Argument Name="SearchIndex" Value="Books"/>
+<Argument Name="Signature" Value="4R4fUzMBC+J6qzSElIpCIFZInTyp72N0SThg6Rb80L8="/>
+<Argument Name="AWSAccessKeyId" Value="AKIAJDL6OQHWMK7E2VXQ"/>
+<Argument Name="Timestamp" Value="2011-12-13T02:16:34Z"/>
+</Arguments>
+<RequestProcessingTime>0.0228440000000000</RequestProcessingTime>
+</OperationRequest>
+<Items>
+<Request>
+<IsValid>True</IsValid>
+<ItemSearchRequest>
+<ItemPage>1</ItemPage>
+<Keywords>978487311439223456789123459</Keywords>
+<ResponseGroup>Small</ResponseGroup>
+<SearchIndex>Books</SearchIndex>
+</ItemSearchRequest>
+<Errors>
+<Error>
+<Code>AWS.ECommerceService.NoExactMatches</Code>
+<Message>リクエストに該当する結果がありません。</Message>
+</Error>
+</Errors>
+</Request>
+<TotalResults>0</TotalResults>
+<TotalPages>0</TotalPages>
+</Items>
+</ItemSearchResponse>
