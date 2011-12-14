@@ -4,6 +4,7 @@ import static org.junit.Assert.*;
 import static org.hamcrest.CoreMatchers.*;
 
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -12,6 +13,10 @@ import apaapi4j.AmazonAPIService;
 import apaapi4j.ItemSearchResponse;
 import apaapi4j.helper.Helper;
 
+/**
+ * appapi4j.propertiesを設定したら動く。
+ */
+@Ignore
 public class AmazonAPIServiceTest {
 
 	AmazonAPIService service;
