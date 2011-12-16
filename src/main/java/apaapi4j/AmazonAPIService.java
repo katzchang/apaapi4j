@@ -51,30 +51,46 @@ public class AmazonAPIService {
 	}
 
 	public AmazonAPIService(Config config) {
-		this.accessKey = config.aws_access_key_id;
-		this.secretKey = config.aws_secret_key;
-		this.endpoint = config.endpoint;
-		this.associateTag = config.associate_tag;
-		helper = SignedRequestsHelper.getInstance(endpoint,
-				accessKey, secretKey);
+		this(config.aws_access_key_id, config.aws_secret_key,
+				config.endpoint, config.associate_tag);
 	}
 
+	public ItemSearchResponse searchBooksByKeywords(String keywords) {
+		return searchBooksByKeywords(keywords, 1);
+	}
+
+	public ItemSearchResponse searchForeignBooksByKeywords(String keywords) {
+		return searchForeignBooksByKeywords(keywords, 1);
+	}
+	
 	public ItemSearchResponse searchBooksByKeywords(String keywords, Integer page) {
 		try {
-			Map<String, String> params = new HashMap<String, String>();
-			params.put("Service", "AWSECommerceService");
-			params.put("Version", VERSION);
-			params.put("Operation", "ItemSearch");
-			params.put("AssociateTag", associateTag);
-			params.put("Keywords", keywords);
-			params.put("SearchIndex", "Books");
-			params.put("ItemPage", page.toString());
-			
-			String requestUrl = helper.sign(params);
+			String requestUrl = helper.sign(buildSearchParams(keywords, "Books", page));
 			return parseBookSearch(requestUrl);
 		} catch (Exception e) {
 			throw new RuntimeException(e);
 		}
+	}
+
+	public ItemSearchResponse searchForeignBooksByKeywords(String keywords, Integer page) {
+		try {
+			String requestUrl = helper.sign(buildSearchParams(keywords, "ForeignBooks", page));
+			return parseBookSearch(requestUrl);
+		} catch (Exception e) {
+			throw new RuntimeException(e);
+		}
+	}
+	
+	Map<String, String> buildSearchParams(String keywords, String searchIndex, Integer page) {
+		Map<String, String> params = new HashMap<String, String>();
+		params.put("Service", "AWSECommerceService");
+		params.put("Version", VERSION);
+		params.put("Operation", "ItemSearch");
+		params.put("AssociateTag", associateTag);
+		params.put("Keywords", keywords);
+		params.put("SearchIndex", searchIndex);
+		params.put("ItemPage", page.toString());
+		return params;
 	}
 
 	static ItemSearchResponse parseBookSearch(String url) {
@@ -102,18 +118,18 @@ public class AmazonAPIService {
 	}
 
 	public Item findByISBN(String isbn) {
-		Map<String, String> params = new HashMap<String, String>();
-		params.put("Service", "AWSECommerceService");
-		params.put("Version", VERSION);
-		params.put("Operation", "ItemSearch");
-		params.put("AssociateTag", associateTag);
-		params.put("Keywords", isbn);
-		params.put("SearchIndex", "Books");
-		params.put("ItemPage", "1");
-		String requestUrl = helper.sign(params);
-		ItemSearchResponse response = parseBookSearch(requestUrl);
-		if (response.items.isEmpty()) return null;
-		return response.items.get(0);
+		Item item = findBookByISBN(isbn);
+		return item == null ? findForeignBookByISBN(isbn) : item;
+	}
+
+	public Item findBookByISBN(String isbn) {
+		ItemSearchResponse response = searchBooksByKeywords(isbn);
+		return response.items.isEmpty() ? null: response.items.get(0);
+	}
+
+	public Item findForeignBookByISBN(String isbn) {
+		ItemSearchResponse response = searchForeignBooksByKeywords(isbn);
+		return response.items.isEmpty() ? null: response.items.get(0);
 	}
 
 	public Item findByASIN(String asin) {
@@ -125,10 +141,6 @@ public class AmazonAPIService {
 		params.put("ItemId", asin);
 		String requestUrl = helper.sign(params);
 		return parseLookUp(requestUrl);
-	}
-
-	public ItemSearchResponse searchBooksByKeywords(String keywords) {
-		return searchBooksByKeywords(keywords, 1);
 	}
 
 }

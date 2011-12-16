@@ -50,10 +50,28 @@ public class AmazonAPIServiceTest {
 	}
 	
 	@Test
+	public void searchForignBooksByKeywords() {
+		// xUnit test patternsが和訳されたら、このテストは失敗するだろう
+		ItemSearchResponse response1 = service.searchBooksByKeywords(
+				"xUnit-Test-Patterns-Refactoring-Addison-Wesley");
+		assertThat(response1.totalResult == 0, is(true));
+		
+		ItemSearchResponse response2 = service.searchForeignBooksByKeywords(
+				"xUnit-Test-Patterns-Refactoring-Addison-Wesley");
+		assertThat(response1.totalResult >= 0, is(true));
+	}
+	
+	@Test
 	public void lookupByValidISBN() {
 		Item item = service.findByISBN("9784873114392");
 		assertThat(item.itemAttributes.title, is("Hadoop"));
 		assertThat(item.asin, is("487311439X"));
+	}
+	
+	@Test
+	public void lookupByValidISBNで洋書を取得() {
+		Item item = service.findByISBN("9780976694007"); // Agile Web Development With Rails
+		assertThat(item.asin, is("097669400X"));
 	}
 	
 	@Test

@@ -52,10 +52,10 @@ public class Item {
 		return new ItemAttributes(authors, directors, manufacturers, creators, productGroup, title);
 	}
 	
-	final String asin;
-	final String detailPageURL;
-	final List<ItemLink> itemLinks;
-	final ItemAttributes itemAttributes;
+	public final String asin;
+	public final String detailPageURL;
+	public final List<ItemLink> itemLinks;
+	public final ItemAttributes itemAttributes;
 	
 	public Item(String asin, String detailPageURL, List<ItemLink> itemLinks,
 			ItemAttributes itemAttributes) {
@@ -70,52 +70,6 @@ public class Item {
 		return "Item [asin=" + asin + ", detailPageURL=" + detailPageURL
 				+ ", itemLinks=" + itemLinks + ", itemAttributes="
 				+ itemAttributes + "]";
-	}
-	
-}
-
-class ItemLink {
-}
-
-class ItemAttributes {
-	final List<String> authors;
-	final List<String> directors;
-	final List<String> manufacturers;
-	final List<Creator> creators;
-	final String productGroup;
-	final String title;
-	
-	public ItemAttributes(List<String> authors, List<String> directors,
-			List<String> manufacturers, List<Creator> creators,
-			String productGroup, String title) {
-		this.authors = authors;
-		this.directors = directors;
-		this.manufacturers = manufacturers;
-		this.creators = creators;
-		this.productGroup = productGroup;
-		this.title = title;
-	}
-
-	@Override
-	public String toString() {
-		return "ItemAttributes [authors=" + authors + ", directors="
-				+ directors + ", manufacturers=" + manufacturers
-				+ ", creators=" + creators + ", productGroup="
-				+ productGroup + ", title=" + title + "]";
-	}
-}
-
-class Creator {
-	final String role;
-	final String creator;
-	public Creator(String role, String creator) {
-		this.role = role;
-		this.creator = creator;
-	}
-	
-	@Override
-	public String toString() {
-		return "Creator [role=" + role + ", creator=" + creator + "]";
 	}
 	
 }
