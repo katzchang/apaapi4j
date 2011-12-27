@@ -9,11 +9,11 @@ public class Config {
 	final String associate_tag;
 	
 	public Config() {
-		this("appapi4j");
+		this("apaapi4j");
 	}
 
 	public Config(String resourceName) {
-		ResourceBundle rb = ResourceBundle.getBundle("appapi4j");
+		ResourceBundle rb = ResourceBundle.getBundle(resourceName);
 		this.aws_access_key_id = rb.getString("aws_access_key_id");
 		this.aws_secret_key = rb.getString("aws_secret_key");
 		this.endpoint = rb.getString("endpoint");
