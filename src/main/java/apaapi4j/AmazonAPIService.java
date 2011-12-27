@@ -201,17 +201,17 @@ class TrafficController implements Runnable {
 
 	@Override
 	public void run() {
-		while (true) {
-			try {
+		try {
+			while (true) {
 				Thread.sleep(10);
 				if (hg.isEmpty() && !receivers.isEmpty()) {
 					Message<String, Document> message = receivers.poll();
 					message.recieve(request(message.send));
 //					message.notify();
 				}
-			} catch (InterruptedException e) {
-				throw new RuntimeException(e);
 			}
+		} catch (InterruptedException e) {
+			throw new RuntimeException(e);
 		}
 	}
 
