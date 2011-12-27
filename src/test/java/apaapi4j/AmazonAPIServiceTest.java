@@ -58,7 +58,7 @@ public class AmazonAPIServiceTest {
 		
 		ItemSearchResponse response2 = service.searchForeignBooksByKeywords(
 				"xUnit-Test-Patterns-Refactoring-Addison-Wesley");
-		assertThat(response1.totalResult >= 0, is(true));
+		assertThat(response2.totalResult >= 0, is(true));
 	}
 	
 	@Test

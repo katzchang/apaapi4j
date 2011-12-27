@@ -18,7 +18,8 @@ public class ParserTest {
 	
 	@Test
 	public void testdocParser() throws Exception {
-		ItemSearchResponse itemSearchResponse = AmazonAPIService.parseBookSearch("src/test/resources/ItemSearchResponse_2.xml");
+		AmazonAPIService service = new AmazonAPIService();
+		ItemSearchResponse itemSearchResponse = service.parseBookSearch("src/test/resources/ItemSearchResponse_2.xml");
 		
 		assertThat(itemSearchResponse.totalResult, is(36));
 		assertThat(itemSearchResponse.totalPages, is(4));

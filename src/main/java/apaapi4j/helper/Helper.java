@@ -2,8 +2,6 @@ package apaapi4j.helper;
 
 import java.io.StringWriter;
 
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.transform.*;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
@@ -29,16 +27,6 @@ public class Helper {
 			transformer.setOutputProperty(OutputKeys.INDENT, "yes");
 			transformer.transform(source, result);
 			return stringWriter.getBuffer().toString();
-		} catch (Exception e) {
-			throw new RuntimeException(e);
-		}
-	}
-	
-	public static Document parseXML(String url) {
-		try {
-			DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
-			DocumentBuilder db = dbf.newDocumentBuilder();
-			return db.parse(url);
 		} catch (Exception e) {
 			throw new RuntimeException(e);
 		}
