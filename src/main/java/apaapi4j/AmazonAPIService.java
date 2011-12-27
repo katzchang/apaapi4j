@@ -192,7 +192,7 @@ class TrafficController implements Runnable {
 		keeperThread.start();
 	}
 	
-	final Hourglass hg = new Hourglass(1000);
+	final Hourglass hg = new Hourglass(1820); // 2000 query / hour + 20
 	
 	private TrafficController() {
 	}
